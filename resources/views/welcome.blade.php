@@ -13,25 +13,25 @@
 
         <div class="row featurette">
             <div class="col-md-7">
-                <h4 class="featurette-heading">Bahan Bangunan Kayu </h4>
+                <h4 class="featurette-heading"> Sistem Pendukung Keputusan untuk Pemilihan Bahan Bangunan Kayu dengan Metode Simple Additive Weighting (SAW)</h4>
                 <p>
-                     Bahan bangunan kayu adalah material konstruksi yang terbuat dari berbagai 
-                     jenis kayu yang diproses dan diolah untuk digunakan dalam pembangunan. 
-                     Kayu digunakan dalam berbagai aplikasi, seperti rangka atap, dinding, lantai, 
-                     pintu, jendela, dan furnitur. Material ini dipilih karena ketersediaannya yang 
-                     melimpah dan kemudahan dalam pengerjaannya. Kayu juga dapat diolah menjadi berbagai 
-                     bentuk dan ukuran sesuai kebutuhan konstruksi. Namun, kayu perlu diolah 
-                     dan dirawat dengan baik untuk menghindari kerusakan akibat hama, kelembaban, dan risiko kebakaran.
+                    Sistem Pendukung Keputusan (SPK) untuk Pemilihan Bahan Bangunan Kayu dengan Metode Simple Additive Weighting (SAW) adalah sebuah aplikasi yang dirancang untuk membantu pengambil keputusan dalam memilih jenis kayu terbaik untuk konstruksi bangunan. Sistem ini mempertimbangkan berbagai kriteria penting seperti kekuatan, ketahanan terhadap hama, biaya, ketersediaan, dan estetika.
+                    <hr>
+                    Dengan menggunakan metode SAW, sistem ini mampu mengolah data dari berbagai alternatif jenis kayu dan memberikan penilaian secara objektif berdasarkan bobot yang diberikan untuk setiap kriteria. Proses ini melibatkan normalisasi nilai kriteria untuk setiap alternatif dan penghitungan nilai akhir yang mencerminkan kelayakan setiap jenis kayu. Alternatif dengan nilai tertinggi diusulkan sebagai pilihan terbaik.
+                    <hr>
+                    Sistem ini dirancang untuk memudahkan pengguna dalam melakukan evaluasi dan pemilihan bahan bangunan kayu secara efisien dan akurat, serta mendukung keputusan yang lebih terinformasi dan rasional.
                 </p>
             </div>
                 <div class="col-md-5">
-                    <img class="featurette-image img-fluid mx-auto rounded-custom" data-src="holder.js/500x500/auto" alt="500x500" src="assets/img/kayu2.jpg" data-holder-rendered="true" style="width: 300px; height: 250px;">
+                    <img class="featurette-image img-fluid mx-auto rounded-custom" data-src="holder.js/500x500/auto" alt="500x500" src="assets/img/kayu2.jpg" data-holder-rendered="true" style="width: 450px; height: 350px;">
+                    <hr>
+                    <a href="{{route('algoritma')}}" class="btn btn-primary btn-lg rounded-custom">Pelajari Lebih Lanjut</a>
                 </div>
         </div>
 
         <hr>
 
-         <div class="row featurette">
+         {{-- <div class="row featurette">
             <div class="col-md-7">
                 <h4 class="featurette-heading">Metode SAW</h4>
                 <p>
@@ -44,7 +44,7 @@
                 <a href="" class="btn btn-primary">Pelajari Lebih Lanjut</a>
                 <a href="" class="btn btn-warning">Mulai Perhitungan?</a>
             </div>
-        </div>
+        </div> --}}
 
         <hr>
 
